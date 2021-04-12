@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WRTimer_Example' do
+  pod 'WRTimer', :path => '../'
+
+  target 'WRTimer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
