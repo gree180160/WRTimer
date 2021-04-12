@@ -1,0 +1,6 @@
+framework module Pods_WRTimer_Tests {
+  umbrella header "Pods-WRTimer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

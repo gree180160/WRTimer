@@ -1,0 +1,16 @@
+PODS:
+  - WRTimer (0.1.0)
+
+DEPENDENCIES:
+  - WRTimer (from `../`)
+
+EXTERNAL SOURCES:
+  WRTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WRTimer: cb5f52baf76e74d66ea7e16d7825ab5bdbdca093
+
+PODFILE CHECKSUM: d03b2793993e27946f52f9456a7e328d60fed713
+
+COCOAPODS: 1.9.1
