@@ -1,24 +1,12 @@
-#
-# Be sure to run `pod lib lint WRTimer.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+
 
 Pod::Spec.new do |s|
   s.name             = 'WRTimer'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WRTimer.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '1.0.0'
+  s.summary          = 'DispatchSourceTimer '
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+本示例采用DispatchSourceTimer + 中介者消息转发机制 来解决上述的两个问题 。WRGCDTimerWrapper 封装了DispatchSourceTimer
                        DESC
 
   s.homepage         = 'https://github.com/gree180160/WRTimer'
@@ -26,11 +14,10 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gree180160' => '1459287460@qq.com' }
   s.source           = { :git => 'https://github.com/gree180160/WRTimer.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WRTimer/Classes/**/*'
+  s.source_files = 'WRTimer/Classes/*'
   
   # s.resource_bundles = {
   #   'WRTimer' => ['WRTimer/Assets/*.png']
